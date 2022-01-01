@@ -15,10 +15,14 @@
 ----
 
 ## About me
+
 >I came to programming from international relations, management and accounting. I really enjoy creating websites, mobile applications and much more!
 
 
+
+
 ## Skills
+
 * HTML
 * CSS
 * SASS, SCSS
@@ -34,7 +38,9 @@
 ----
 
 
+
 ## Courses
+
 * ITC Bootcamp
 * RS School stage#0
 
@@ -64,4 +70,6 @@ export const setToken = async (value) => {
 
 * B2 (upper-intermediate)
 
+
 ---
+
