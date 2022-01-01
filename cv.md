@@ -8,9 +8,13 @@
 * __Telegram:__ @aiscode
 * __Github:__ [aiscodes](https://github.com/aiscode)
 ----
+
 ## About me
+
 >I came to programming from international relations, management and accounting. I really enjoy creating websites, mobile applications and much more!
+
 ## Skills
+
 * HTML
 * CSS
 * SASS, SCSS
@@ -22,12 +26,18 @@
 * Expo cli
 * Git
 * Postman
+
 ----
+
 ## Courses
+
 * ITC Bootcamp
 * RS School stage#0
+
 ---
+
 ## Code Example
+
 ```
 export const setToken = async (value) => {
     try {
@@ -41,7 +51,11 @@ export const setToken = async (value) => {
 * __Game for kids on React Native:__ [MathBest](https://apps.apple.com/ca/app/mathbest/id1574724370)
 * __Health app on React Native:__ [PRO-Health](https://apps.apple.com/kg/app/pro-health/id1597622772)
 * __Website on React:__ [hackaton - Data Lab & Unicef](https://github.com/aiscodes/Hackaton-Unicef)
+
 ---
+
 ## English
+
 * B2 (upper-intermediate)
+
 ---
