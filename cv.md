@@ -10,15 +10,13 @@
 * __Phone:__  +(996) 779 07 07 71
 * __E-mail:__ aigerim6769@gmail.com
 * __Telegram:__ @aiscode
-* __Github:__ [aiscodes](https://github.com/aiscode)
+* __Github:__ [git](https://github.com/aiscodes)
 
-----
+---
 
 ## About me
 
 >I came to programming from international relations, management and accounting. I really enjoy creating websites, mobile applications and much more!
-
-
 
 
 ## Skills
@@ -35,8 +33,7 @@
 * Git
 * Postman
 
-----
-
+---
 
 
 ## Courses
@@ -69,7 +66,6 @@ export const setToken = async (value) => {
 ## English
 
 * B2 (upper-intermediate)
-
 
 ---
 
