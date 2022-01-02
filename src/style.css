@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Gwendolyn:wght@700&family=Karla:ital@1&family=Montserrat:ital,wght@0,400;0,600;0,700;0,800;1,900&family=Pacifico&family=Playfair+Display&family=Work+Sans:ital,wght@0,400;0,500;1,300&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #282c34;
+}
+
+header, section, footer {
+    padding: 40px 0;
+    color: #61dafb;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    color: 30px;
+    justify-content: space-between;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.nav__menu {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0;
+}
+
+.nav__menu a {
+    text-decoration: none;
+    color: #525252;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: -0.3;
+    color: white;
+}
+
+.nav-icon {
+    width: 120px;
+    height: 50px;
+}
+
+.my_img {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+}
+
+h2, h1, h3, h5 {
+    text-align: center;
+    padding-bottom: 10px;
+    color: white;
+}
+
+li, pre, p {
+    line-height: 30px;
+}
+
+.footer__github img {
+    width: 50px;
+    height: 50px;
+}
+
+.col-6_first {
+    text-align: left;
+    padding-left: 50px;
+}
+
+.footer__github {
+    width: 15%;
+    display: flex;
+    justify-content: space-around;
+}
+
+header, footer {
+    height: 30px;
+    background-color: #20232a;
+}
+
+hr {
+    border: solid 1px white;
+}
