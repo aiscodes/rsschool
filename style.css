@@ -7,10 +7,16 @@ body {
     background-color: #282c34;
 }
 
-header, section, footer {
+header, footer {
     padding: 40px 0;
     color: #61dafb;
     font-family: 'Work Sans', sans-serif;
+}
+
+section {
+    color: #61dafb;
+    font-family: 'Work Sans', sans-serif;
+    padding: 10px 0;
 }
 
 .container {
@@ -20,30 +26,16 @@ header, section, footer {
 
 .row {
     display: flex;
-    flex-wrap: wrap;
-    color: 30px;
-    justify-content: space-between;
+    flex-direction: column;
 }
 
 .col-6 {
-    width: 50%;
+    width: 90%;
+    margin: 0 auto;
 }
 
 .nav__menu {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    list-style-type: none;
-    padding: 0;
-}
-
-.nav__menu a {
-    text-decoration: none;
-    color: #525252;
-    font-size: 18px;
-    font-weight: 400;
-    letter-spacing: -0.3;
-    color: white;
+    display: none;
 }
 
 .nav-icon {
@@ -52,18 +44,38 @@ header, section, footer {
 }
 
 .my_img {
-    width: 350px;
-    height: 350px;
+    width: 80%;
+    height: 230px;
     border-radius: 50%;
+    margin-left: 10%;
 }
 
-h2, h1, h3, h5 {
-    text-align: center;
-    padding-bottom: 10px;
+h2, h5 {
+    text-align: left;
+    padding: 10px;
     color: white;
 }
 
-li, pre, p {
+h1, h3 {
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+
+li {
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+
+.about, .education {
+    display: none;
+}
+
+pre {
+    width: 70%;
+    font-size: 10px;
+    font-weight: 500;
+    text-transform: uppercase;
     line-height: 30px;
 }
 
@@ -74,11 +86,10 @@ li, pre, p {
 
 .col-6_first {
     text-align: left;
-    padding-left: 50px;
 }
 
 .footer__github {
-    width: 15%;
+    width: 30%;
     display: flex;
     justify-content: space-around;
 }
@@ -90,4 +101,14 @@ header, footer {
 
 hr {
     border: solid 1px white;
+}
+
+footer .footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+footer h5 {
+    display: none;
 }

@@ -1,0 +1,106 @@
+@media only screen and (min-width: 600px){
+    .my_img {
+        width: 70%;
+        height: 350px;
+        border-radius: 50%;
+        margin-left: 15%;
+    }
+
+    pre {
+        width: 80%;
+        font-size: 16px;
+        font-weight: 500;
+        text-transform: none;
+        line-height: 30px;
+    }
+
+    .footer__github img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .about, .education{
+        display: block;
+    }
+
+}
+@media only screen and  (min-width: 1024px) {
+    .row {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .col-6 {
+        width: 50%;
+    }
+
+    .nav__menu {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .nav__menu a {
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: 400;
+        letter-spacing: -0.3px;
+        color: white;
+    }
+
+    .nav-icon {
+        width: 120px;
+        height: 50px;
+    }
+
+    .my_img {
+        width: 350px;
+        height: 350px;
+        border-radius: 50%;
+        margin: 0;
+    }
+
+    h2, h1, h3, h5 {
+        text-align: center;
+        padding-bottom: 10px;
+        color: white;
+    }
+
+    li, pre, p {
+        line-height: 30px;
+    }
+
+    .footer__github img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .col-6_first {
+        text-align: left;
+        padding-left: 60px;
+    }
+
+    .footer__github {
+        width: 15%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    header, footer {
+        height: 40px;
+        background-color: #20232a;
+    }
+    .about, .education{
+        display: block;
+    }
+
+    hr {
+        border: solid 1px white;
+    }
+    footer h5{
+        display: flex;
+    }
+}
