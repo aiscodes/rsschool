@@ -116,10 +116,19 @@ footer h5 {
 
 @media only screen and (min-width: 600px) {
     .my_img {
-        width: 70%;
+        width: auto;
         height: 350px;
         border-radius: 50%;
-        margin-left: 15%;
+    }
+    .col-6 {
+        width: 90%;
+        text-align: center;
+    }
+    .nav-icon {
+        margin-left: 10%;
+    }
+    li{
+        text-align: left;
     }
 
     pre {
