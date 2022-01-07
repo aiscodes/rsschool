@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RS School</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="row">
+          <div class="col-6">
+            <nav class="nav">
+              <a target="_blank" href="https://rs.school/js/">
+                <img
+                  src="./img/rsschoolicon.png"
+                  alt="rsschool"
+                  class="nav-icon"
+                />
+              </a>
+            </nav>
+          </div>
+          <div class="col-6">
+            <nav>
+              <ol class="nav__menu">
+                <li class="nav__menu-item"><a href="#">Home</a></li>
+                <li class="nav__menu-item"><a href="#">Contacts</a></li>
+                <li class="nav__menu-item"><a href="#">Skills</a></li>
+                <li class="nav__menu-item"><a href="#">Code Example</a></li>
+                <li class="nav__menu-item"><a href="#">Education</a></li>
+              </ol>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-6" id="first_side">
+            <img src="./img/me.jpg" alt="me" class="my_img" />
+          </div>
+          <div class="col-6">
+            <h1>Temirova Aigerim</h1>
+            <hr />
+            <h3>Front-end React & React Native developer</h3>
+            <p class="about">
+              I came to programming from international relations, management and
+              accounting.
+              <br />
+              I really enjoy creating websites, mobile applications and much
+              more!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container next_container">
+        <div class="row">
+          <div class="col-6">
+            <h2 class="col-6_first">Skills</h2>
+            <ul>
+              <li>HTML 5</li>
+              <li>CSS 3</li>
+              <li>JS (ES5, ES6+)</li>
+              <li>React JS</li>
+              <li>Redux</li>
+              <li>React Native</li>
+              <li>Expo cli</li>
+              <li>Rest API</li>
+              <li>GraphQL</li>
+              <li>Git (git-flow)</li>
+              <li>Postman</li>
+              <li>Material UI</li>
+              <li>React native paper</li>
+              <li>Bootstrap</li>
+              <li>Ant-Design</li>
+              <li>Three.js</li>
+              <li>English - B2</li>
+            </ul>
+          </div>
+          <div class="col-6">
+            <h2>Projects</h2>
+            <hr />
+            <ul class="project_side">
+              <a href="https://apps.apple.com/mn/app/mathbest/id1574724370">
+                <li class="project_side">
+                  MathBest - game app for kids based on React Native (expo cli);
+                </li>
+              </a>
+              <a href="#private repository:)">
+                <li class="project_side">
+                  Nihao - online store based on React JS;
+                </li>
+              </a>
+              <a href="https://github.com/aiscodes/Hackaton-Unicef">
+                <li class="project_side">
+                  Vaccine and vaccination site for UNICEF (realized in
+                  hackathon) React JS;
+                </li>
+              </a>
+              <a href="https://apps.apple.com/kg/app/pro-health/id1597622772">
+                <li class="project_side">
+                  PRO HEALTH - app reference based on React Native (expo cli);
+                </li>
+              </a>
+              <a href="https://github.com/aiscodes/English">
+                <li class="project_side">
+                  EnApp - an application for teaching English React Native (expo
+                  cli);
+                </li>
+              </a>
+              <a href="#private repository:)">
+                <li class="project_side">
+                  FOURTH - online store (realized in hackathon inside ITC
+                  Bootcamp) based on React JS;
+                </li>
+              </a>
+            </ul>
+            <h2 class="education">Education</h2>
+            <hr class="education" />
+            <ul class="education">
+              <li>
+                Moscow State Institute of International Relations -
+                international relations (bachelor's degree) ;
+              </li>
+              <li>
+                Kyrgyz National University named after J. Balasagyn -
+                Administration & MBA;
+              </li>
+              <li>PwC Academy - audit, analysis, accounting</li>
+              <li>ITC Bootcamp</li>
+              <li>RSSchool stage# 0</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container next_container">
+        <div class="row">
+          <div class="col-6 first_side">
+            <h2 class="col-6_first">Contacts:</h2>
+            <ul>
+              <li>+996 779070771</li>
+              <li>+7 925 906 7454</li>
+              <li>aigerim6769@gmail.com</li>
+              <li>Telegram: @aiscode</li>
+            </ul>
+          </div>
+          <div class="col-6">
+            <h2>Code Example</h2>
+            <hr />
+            <pre class="code__wrapper-text">
+export const setToken = async (value) => {
+    try {
+  const jsonValue = JSON.stringify(value)
+  await AsyncStorage.setItem('token', jsonValue)
+    } catch (e) {
+}}
+                     </pre
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <div class="row footer">
+          <a href="https://rs.school/" target="_blank">
+            <img src="./img/rsschoolicon.png" class="nav-icon" alt="rsicon" />
+          </a>
+          <h5>2022</h5>
+          <a
+            href="https://github.com/aiscodes"
+            target="_blank"
+            class="footer__github"
+          >
+            <h5>Github</h5>
+            <img src="./img/github.png" alt="github" />
+          </a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

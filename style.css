@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Gwendolyn:wght@700&family=Karla:ital@1&family=Montserrat:ital,wght@0,400;0,600;0,700;0,800;1,900&family=Pacifico&family=Playfair+Display&family=Work+Sans:ital,wght@0,400;0,500;1,300&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #282c34;
+}
+
+header, footer {
+    padding: 40px 0;
+    color: #61dafb;
+    font-family: 'Work Sans', sans-serif;
+}
+
+section {
+    color: #61dafb;
+    font-family: 'Work Sans', sans-serif;
+    padding: 10px 0;
+}
+
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+}
+
+.col-6 {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.nav__menu {
+    display: none;
+}
+
+.nav-icon {
+    width: 120px;
+    height: 50px;
+}
+
+.my_img {
+    width: 80%;
+    height: 230px;
+    border-radius: 50%;
+    margin-left: 10%;
+}
+
+h2, h5 {
+    text-align: left;
+    padding: 10px;
+    color: white;
+}
+
+h1, h3 {
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+.project_side  a {
+    text-decoration: none;
+    color: #61dafb;
+
+}
+
+li {
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+
+.about, .education {
+    display: none;
+}
+
+pre {
+    width: 70%;
+    font-size: 10px;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 30px;
+}
+
+.footer__github img {
+    width: 50px;
+    height: 50px;
+}
+
+.col-6_first {
+    text-align: left;
+}
+
+.footer__github {
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+}
+
+header, footer {
+    height: 30px;
+    background-color: #20232a;
+}
+
+hr {
+    border: solid 1px white;
+}
+
+footer .footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+footer h5 {
+    display: none;
+}
+
+
+
+@media only screen and (min-width: 600px) {
+    .my_img {
+        width: auto;
+        height: 350px;
+        border-radius: 50%;
+    }
+    .col-6 {
+        width: 90%;
+    }
+    .nav-icon {
+        margin-left: 10%;
+    }
+    #first_side{
+        text-align: center;
+    }
+    pre {
+        width: 80%;
+        font-size: 16px;
+        font-weight: 500;
+        text-transform: none;
+        line-height: 30px;
+    }
+
+    .footer__github img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .about, .education {
+        display: block;
+    }
+
+}
+
+@media only screen and (min-width: 1024px) {
+    .row {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .col-6 {
+        width: 50%;
+    }
+
+    .nav__menu {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .nav__menu a {
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: 400;
+        letter-spacing: -0.3px;
+        color: white;
+    }
+
+    .nav-icon {
+        width: 120px;
+        height: 50px;
+    }
+    #first_side{
+        text-align: left;
+    }
+
+    .my_img {
+        width: 320px;
+        height: 320px;
+        border-radius: 50%;
+        margin: 0;
+    }
+
+    h2, h1, h3, h5 {
+        text-align: center;
+        padding-bottom: 10px;
+        color: white;
+    }
+
+    li, pre, p {
+        line-height: 30px;
+    }
+
+    .footer__github img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .col-6_first {
+        padding-left: 60px;
+    }
+
+    .footer__github {
+        width: 15%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    header, footer {
+        height: 40px;
+        background-color: #20232a;
+    }
+
+    .about, .education {
+        display: block;
+    }
+
+    hr {
+        border: solid 1px white;
+    }
+
+    footer h5 {
+        display: flex;
+    }
+}
