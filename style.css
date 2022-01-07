@@ -122,15 +122,13 @@ footer h5 {
     }
     .col-6 {
         width: 90%;
-        text-align: center;
     }
     .nav-icon {
         margin-left: 10%;
     }
-    li{
-        text-align: left;
+    #first_side{
+        text-align: center;
     }
-
     pre {
         width: 80%;
         font-size: 16px;
@@ -159,7 +157,6 @@ footer h5 {
 
     .col-6 {
         width: 50%;
-        text-align: left;
     }
 
     .nav__menu {
@@ -181,6 +178,9 @@ footer h5 {
     .nav-icon {
         width: 120px;
         height: 50px;
+    }
+    #first_side{
+        text-align: left;
     }
 
     .my_img {
@@ -206,7 +206,6 @@ footer h5 {
     }
 
     .col-6_first {
-        text-align: left;
         padding-left: 60px;
     }
 
